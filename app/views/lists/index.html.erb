@@ -1,0 +1,8 @@
+<h1>Lists</h1>
+<p><%= link_to 'Lists', lists_path %></p>
+
+<ul>
+<% @lists.each do |list| %>
+<li><%= render list %></li>
+<% end %>
+</ul>

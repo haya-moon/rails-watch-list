@@ -1,0 +1,9 @@
+<%= simple_form_for(@list) do |f| %>
+<%= f.input :name %>
+<%= f.button :submit %>
+
+<% end %>
+
+
+<%# A user can add a new bookmark (movie/list pair) to an existing list
+Checkout simple_form docs about f.association to easily create a select dropdown for our list of movies. %>
